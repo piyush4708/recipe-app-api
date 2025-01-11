@@ -16,7 +16,7 @@ jobs:
 
       # Debug secrets (remove after confirming it's correct)
       - name: Debug Secrets
-        run: echo "DOCKERHUB_PIUSH: ${{ secrets.DOCKERHUB_PIUSH }}; DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}"
+        run: echo "DOCKERHUB_PIUSH: ${{ secrets.DOCKERHUB_PIYUSH }}; DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}"
 
       # Checkout the repository
       - name: Checkout
